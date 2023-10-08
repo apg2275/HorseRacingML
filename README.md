@@ -2,9 +2,9 @@
 
 The horse racing dataset used was sourced from Kaggle named "Horse Racing in HK". It contains racing records of every horse race event that occurred between June 2nd, 1997, and approximately August 7th, 2005, from two race tracks in Shatin and Happy Valley. You can access and download the dataset [here](https://www.kaggle.com/gdaley/hkracing).
 
-Given that many models related to horse racing focus solely on the first place finish when there are many other types of betting strategies available. Some may end up having a higher expected value resulting in the better betting strategies focusing on more than just solely the first place. 
+Given that many models related to horse racing focus solely on the first place finish when there are many other types of betting strategies available. A bettor may have a higher expected return by focusing on more than just solely the first place using models to help predict on other betting stratigies. 
 
-Because of this, exploration into which model performs best for different betting type and overall seemed like an underlooked aspect.
+Because of this, exploration into which model performs best for different betting type(s) seemed like an underlooked aspect.
 
 As well, this project served as a way to familiarize myself with the different machine learning models, libraries, and overall methodologies used when creating models to try and solve a real world problem.
 
@@ -24,6 +24,7 @@ Explanation of betting strategies used in the project:
 # Types of models
 Most models were hyperparameter tuned using Optuna
 
+24 models not including separation for binary and multiclass.
 
 - Regression
 	- Least Squares Regression
@@ -48,6 +49,7 @@ Most models were hyperparameter tuned using Optuna
 	- LightGBM
 - Ensemble
 	- Classification
+   	- Probabilty of First Place 
 	- Regression
 	- Ranking
 - Neural Networks (Tensorflow)
