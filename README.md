@@ -49,7 +49,7 @@ Most models were hyperparameter tuned using Optuna
 	- LightGBM
 - Ensemble
 	- Classification
-   	- Probabilty of First Place 
+   	- Ranking by First Place Probability (RandomForest, XGBoost, CatBoost, LightGBM)
 	- Regression
 	- Ranking
 - Neural Networks (Tensorflow)
@@ -63,11 +63,11 @@ Models were evaluated based on their accuracy across various betting types, as w
 
 For the overall best general model, geometric mean was used as the deciding factor.
 
-- Win:  AdaBoost Classifier
+- Win:  AdaBoost OVA Classifier 
 - Place: XGBoost Classifier
 - Show: XGBoost Classifier
 - Exacta: XGBoost Classifier
 - Quinella: XGBoost Classifier
-- Trifecta: LightGBM or XGBoost Regression
+- Trifecta: XGBoost Regression
 - Boxed Trifecta: SVM
 - Geometric mean: XGBoost Classifer
