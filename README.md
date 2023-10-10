@@ -68,6 +68,6 @@ For the overall best general model, geometric mean was used as the deciding fact
 - Show: XGBoost Classifier
 - Exacta: XGBoost Classifier
 - Quinella: XGBoost Classifier
-- Trifecta: XGBoost Regression
+- Trifecta: XGBoost Regression or Heuristic (Using given odds)
 - Boxed Trifecta: SVM
 - Geometric mean: XGBoost Classifer
