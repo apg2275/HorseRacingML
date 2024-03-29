@@ -52,9 +52,10 @@ Most models were hyperparameter tuned using Optuna
    	- Ranking by First Place Probability (RandomForest, XGBoost, CatBoost, LightGBM)
 	- Regression
 	- Ranking
-- Neural Networks (Tensorflow)
+- Neural Networks (PyTorch)
 	- Classification
 	- Regression
+   	- Transformers (Multiclass, Winner, and Regression)
 
 
 # Results
@@ -65,9 +66,9 @@ For the overall best general model, geometric mean was used as the deciding fact
 
 - Win:  AdaBoost OVA Classifier 
 - Place: XGBoost Classifier
-- Show: XGBoost Classifier
-- Exacta: XGBoost Classifier
+- Show: Transformer (Multiclass Classifier)
+- Exacta: Transformer (Multiclass Classifier)
 - Quinella: XGBoost Classifier
-- Trifecta: XGBoost Regression or Heuristic (Using given odds)
-- Boxed Trifecta: SVM
-- Geometric mean: XGBoost Classifer
+- Trifecta: Transformer (Multiclass Classifier)
+- Boxed Trifecta: Transformer (Multiclass Classifier)
+- Geometric mean: Transformer (Multiclass Classifier)
