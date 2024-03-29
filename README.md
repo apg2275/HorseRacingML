@@ -64,11 +64,11 @@ Models were evaluated based on their accuracy across various betting types, as w
 
 For the overall best general model, geometric mean was used as the deciding factor.
 
-- Win:  AdaBoost OVA Classifier 
-- Place: XGBoost Classifier
-- Show: Transformer (Multiclass Classifier)
-- Exacta: Transformer (Multiclass Classifier)
-- Quinella: XGBoost Classifier
-- Trifecta: Transformer (Multiclass Classifier)
-- Boxed Trifecta: Transformer (Multiclass Classifier)
-- Geometric mean: Transformer (Multiclass Classifier)
+- Win:  AdaBoost OVA Classifier: F1 score: 0.33
+- Place: XGBoost Classifier: 0.9289256198347108
+- Show: Transformer (Multiclass Classifier): 0.9851239669421488
+- Exacta: Transformer (Multiclass Classifier): 0.1628099173553719
+- Quinella: XGBoost Classifier: 0.5198347107438016
+- Trifecta: Transformer (Multiclass Classifier): 0.019008264462809916
+- Boxed Trifecta: Transformer (Multiclass Classifier): 0.41487603305785126
+- Geometric mean: Transformer (Multiclass Classifier): 0.31004520195234814
